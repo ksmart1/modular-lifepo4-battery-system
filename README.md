@@ -1,14 +1,13 @@
 # modular-lifepo4-battery-system
 A modular LiFePO₄ battery platform with integrated monitoring, protection, and expansion.
-
-Modular LiFePO₄ Battery System 
-Overview
+ 
+# Overview
 
 This repository documents the design and implementation of a modular LiFePO₄ battery system intended for portable power, backup energy storage, and future expansion.
 
 The project spans power electronics, PCB design, battery management, manufacturing constraints, and mechanical considerations, and was developed iteratively with a strong emphasis on safety, serviceability, and real-world manufacturability.
 
-The system is composed of:
+## The system is composed of:
 
   - A battery pack PCB (2-layer and 4-layer variants)
 
@@ -18,7 +17,7 @@ The system is composed of:
 
   - Future 3D-printed mechanical enclosures
 
-Key Features
+### Key Features
 
   - LiFePO₄ chemistry for improved safety and cycle life
 
@@ -34,7 +33,7 @@ Key Features
 
   - Designed for both hand assembly and low-volume fabrication
 
-System Architecture
+### System Architecture
   - Battery Pack PCB
 
   - Supports prismatic LiFePO₄ cells
@@ -47,13 +46,13 @@ System Architecture
 
   - Test points included for validation and debugging
 
-Designed in both:
+### Designed in both:
 
   - 2-layer (cost-optimized)
 
   - 4-layer (improved current return and EMI behavior)
 
-Protection & Power Path
+### Protection & Power Path
 
   - Polyfuse (40A) for fault protection
 
@@ -61,7 +60,7 @@ Protection & Power Path
 
   - Local ceramic decoupling at every high-current connector
 
-Clear separation between:
+### Clear separation between:
 
   - Battery input
 
@@ -81,9 +80,9 @@ Clear separation between:
 
   - Designed to mate cleanly with multiple battery variants
 
-Design Considerations
+## Design Considerations
 
-Manufacturing constraints were a first-class concern:
+### Manufacturing constraints were a first-class concern:
 
   - OSH Park vs JLCPCB tradeoffs
 
@@ -91,17 +90,17 @@ Manufacturing constraints were a first-class concern:
 
   - Stencil ordering and hand-assembly feasibility
 
-Hand soldering viability:
+### Hand soldering viability:
 
   - Component choices intentionally avoided unnecessary fine-pitch parts
 
   - Sense resistor installation planned explicitly for hand soldering
 
-Safety over aesthetics:
+### Safety over aesthetics:
 
   - Wide copper, conservative spacing, robust grounding
 
-Debuggability:
+### Debuggability:
 
   - Generous test points
 
@@ -115,7 +114,7 @@ Debuggability:
 
   - Designed to bolt into a 3D-printed, topless battery casement
 
-Enclosure design considers:
+### Enclosure design considers:
 
   - Foam isolation between cells
 
@@ -123,7 +122,7 @@ Enclosure design considers:
 
   - Future dovetail or fastener-based joining
 
-Tools & Technologies
+### Tools & Technologies
 
   - KiCad (schematic + PCB layout)
 
@@ -135,9 +134,9 @@ Tools & Technologies
 
   - Hand SMT soldering (assembly)
 
-Why This Project Matters
+## Why This Project Matters
 
-This project demonstrates:
+### This project demonstrates:
 
   - Practical power electronics design
 
@@ -151,7 +150,7 @@ This project demonstrates:
 
   - It reflects the type of work required in embedded systems, hardware engineering, robotics, energy systems, and applied cybersecurity/assurance roles where understanding      the entire system matters.
 
-Status
+### Status
 
   - Battery PCB (4S and 8S variants): Complete
 
