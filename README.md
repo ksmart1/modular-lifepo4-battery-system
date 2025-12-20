@@ -1,7 +1,7 @@
 # modular-lifepo4-battery-system
 A modular LiFePO₄ battery platform with integrated monitoring, protection, and expansion.
 
-Modular LiFePO₄ Battery System (AstroSupply)
+Modular LiFePO₄ Battery System 
 Overview
 
 This repository documents the design and implementation of a modular LiFePO₄ battery system intended for portable power, backup energy storage, and future expansion.
